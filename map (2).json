@@ -1,0 +1,195 @@
+{
+    "assets": {
+        "patches/sw15_1": {
+            "id": "patches/sw15_1",
+            "u": "freedoom/patches/",
+            "p": "sw15_1.png",
+            "e": 0,
+            "w": 32,
+            "h": 128,
+            "ref_count": 2
+        },
+        "patches/tomw2_1": {
+            "id": "patches/tomw2_1",
+            "u": "freedoom/patches/",
+            "p": "tomw2_1.png",
+            "e": 0,
+            "w": 128,
+            "h": 72,
+            "ref_count": 1
+        },
+        "flats/flat20": {
+            "id": "flats/flat20",
+            "u": "freedoom/flats/",
+            "p": "flat20.png",
+            "e": 0,
+            "w": 64,
+            "h": 64,
+            "ref_count": 5
+        },
+        "flats/grass1": {
+            "id": "flats/grass1",
+            "u": "freedoom/flats/",
+            "p": "grass1.png",
+            "e": 0,
+            "w": 64,
+            "h": 64,
+            "ref_count": 2
+        },
+        "patches/sw19_3": {
+            "id": "patches/sw19_3",
+            "u": "freedoom/patches/",
+            "p": "sw19_3.png",
+            "e": 0,
+            "w": 64,
+            "h": 128,
+            "ref_count": 2
+        }
+    },
+    "items": [
+        {
+            "type": "wall",
+            "pos_x": -64,
+            "pos_y": 0,
+            "pos_z": -128,
+            "repeat_x": 1,
+            "repeat_y": 1,
+            "angle": 0,
+            "scale_u": 1,
+            "scale_v": 1,
+            "texture": "patches/sw15_1"
+        },
+        {
+            "type": "wall",
+            "pos_x": 0,
+            "pos_y": 0,
+            "pos_z": -64,
+            "repeat_x": 1,
+            "repeat_y": 1,
+            "angle": 0,
+            "scale_u": 1,
+            "scale_v": 1,
+            "texture": "patches/sw15_1"
+        },
+        {
+            "type": "wall",
+            "pos_x": 0,
+            "pos_y": 0,
+            "pos_z": 0,
+            "repeat_x": 1,
+            "repeat_y": 1,
+            "angle": 0,
+            "scale_u": 1,
+            "scale_v": 1,
+            "texture": "patches/tomw2_1"
+        },
+        {
+            "type": "floor",
+            "pos_x": -128,
+            "pos_y": 0,
+            "pos_z": -128,
+            "repeat_x": 1,
+            "repeat_y": 1,
+            "angle": 0,
+            "scale_u": 2,
+            "scale_v": 2,
+            "texture": "flats/flat20"
+        },
+        {
+            "type": "floor",
+            "pos_x": -128,
+            "pos_y": 0,
+            "pos_z": 128,
+            "repeat_x": 1,
+            "repeat_y": 1,
+            "angle": 0,
+            "scale_u": 2,
+            "scale_v": 2,
+            "texture": "flats/flat20"
+        },
+        {
+            "type": "floor",
+            "pos_x": 0,
+            "pos_y": 0,
+            "pos_z": 0,
+            "repeat_x": 1,
+            "repeat_y": 1,
+            "angle": 0,
+            "scale_u": 2,
+            "scale_v": 2,
+            "texture": "flats/grass1"
+        },
+        {
+            "type": "floor",
+            "pos_x": 0,
+            "pos_y": 0,
+            "pos_z": -4480,
+            "repeat_x": 1,
+            "repeat_y": 1,
+            "angle": 0,
+            "scale_u": 2,
+            "scale_v": 2,
+            "texture": "flats/grass1"
+        },
+        {
+            "type": "wall",
+            "pos_x": 448,
+            "pos_y": 0,
+            "pos_z": 0,
+            "repeat_x": 1,
+            "repeat_y": 1,
+            "angle": 0,
+            "scale_u": 1,
+            "scale_v": 1,
+            "texture": "patches/sw19_3"
+        },
+        {
+            "type": "floor",
+            "pos_x": 0,
+            "pos_y": 0,
+            "pos_z": -128,
+            "repeat_x": 1,
+            "repeat_y": 1,
+            "angle": 0,
+            "scale_u": 2,
+            "scale_v": 2,
+            "texture": "patches/sw19_3"
+        },
+        {
+            "type": "floor",
+            "pos_x": -128,
+            "pos_y": 0,
+            "pos_z": 0,
+            "repeat_x": 1,
+            "repeat_y": 1,
+            "angle": 0,
+            "scale_u": 2,
+            "scale_v": 2,
+            "texture": "flats/flat20"
+        },
+        {
+            "type": "floor",
+            "pos_x": -128,
+            "pos_y": 0,
+            "pos_z": 256,
+            "repeat_x": 1,
+            "repeat_y": 1,
+            "angle": 0,
+            "scale_u": 2,
+            "scale_v": 2,
+            "texture": "flats/flat20"
+        },
+        {
+            "type": "floor",
+            "pos_x": 0,
+            "pos_y": 0,
+            "pos_z": 128,
+            "repeat_x": 1,
+            "repeat_y": 1,
+            "angle": 0,
+            "scale_u": 2,
+            "scale_v": 2,
+            "texture": "flats/flat20"
+        }
+    ]
+}

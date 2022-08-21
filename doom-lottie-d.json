@@ -1,0 +1,3458 @@
+{
+    "v": "5.9.1",
+    "ip": 0,
+    "op": 180,
+    "fr": 60,
+    "w": 640,
+    "h": 480,
+    "fonts": {
+        "list": [
+            {
+                "ascent": 72,
+                "fFamily": "Bungee",
+                "fName": "Bungee Regular",
+                "fStyle": "Regular",
+                "fPath": "https://fonts.googleapis.com/css2?family=Bungee&display=swap",
+                "origin": 1
+            }
+        ]
+    },
+    "assets": [
+        {
+            "id": "d_e1m1.mp3",
+            "u": "",
+            "p": "d_e1m1.mp3",
+            "e": 0
+        },
+        {
+            "id": "music_precomp",
+            "layers": [
+                {
+                    "ty": 6,
+                    "ip": 1,
+                    "op": 5520,
+                    "st": 1,
+                    "refId": "d_e1m1.mp3",
+                    "au": {
+                        "lv": {
+                            "a": 0,
+                            "k": [
+                                100,
+                                100
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "barrel_explosion",
+            "u": "freedoom/sounds/",
+            "p": "dsbarexp.wav",
+            "e": 0
+        },
+        {
+            "id": "barrel_explosion_precomp",
+            "layers": [
+                {
+                    "ty": 6,
+                    "ip": 1,
+                    "op": 60,
+                    "st": 1,
+                    "refId": "barrel_explosion",
+                    "au": {
+                        "lv": {
+                            "a": 0,
+                            "k": [
+                                100,
+                                100
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "shotgun_sound",
+            "u": "freedoom/sounds/",
+            "p": "dsshotgn.wav",
+            "e": 0
+        },
+        {
+            "id": "shotgun_sound_precomp",
+            "layers": [
+                {
+                    "ty": 6,
+                    "ip": 1,
+                    "op": 60,
+                    "st": 1,
+                    "refId": "shotgun_sound",
+                    "au": {
+                        "lv": {
+                            "a": 0,
+                            "k": [
+                                100,
+                                100
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "door_open",
+            "u": "freedoom/sounds/",
+            "p": "dsdoropn.wav",
+            "e": 0
+        },
+        {
+            "id": "door_open_precomp",
+            "layers": [
+                {
+                    "ty": 6,
+                    "ip": 1,
+                    "op": 60,
+                    "st": 1,
+                    "refId": "door_open",
+                    "au": {
+                        "lv": {
+                            "a": 0,
+                            "k": [
+                                100,
+                                100
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "door_close",
+            "u": "freedoom/sounds/",
+            "p": "dsdorcls.wav",
+            "e": 0
+        },
+        {
+            "id": "door_close_precomp",
+            "layers": [
+                {
+                    "ty": 6,
+                    "ip": 1,
+                    "op": 60,
+                    "st": 1,
+                    "refId": "door_close",
+                    "au": {
+                        "lv": {
+                            "a": 0,
+                            "k": [
+                                100,
+                                100
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "item_pickup",
+            "u": "freedoom/sounds/",
+            "p": "dsitemup.wav",
+            "e": 0
+        },
+        {
+            "id": "item_pickup_precomp",
+            "layers": [
+                {
+                    "ty": 6,
+                    "ip": 1,
+                    "op": 12,
+                    "st": 1,
+                    "refId": "item_pickup",
+                    "au": {
+                        "lv": {
+                            "a": 0,
+                            "k": [
+                                100,
+                                100
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "player_pain",
+            "u": "freedoom/sounds/",
+            "p": "dsplpain.wav",
+            "e": 0
+        },
+        {
+            "id": "player_pain_precomp",
+            "layers": [
+                {
+                    "ty": 6,
+                    "ip": 1,
+                    "op": 48,
+                    "st": 1,
+                    "refId": "player_pain",
+                    "au": {
+                        "lv": {
+                            "a": 0,
+                            "k": [
+                                100,
+                                100
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "player_death",
+            "u": "freedoom/sounds/",
+            "p": "dspldeth.wav",
+            "e": 0
+        },
+        {
+            "id": "player_death_precomp",
+            "layers": [
+                {
+                    "ty": 6,
+                    "ip": 1,
+                    "op": 45,
+                    "st": 1,
+                    "refId": "player_death",
+                    "au": {
+                        "lv": {
+                            "a": 0,
+                            "k": [
+                                100,
+                                100
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "monster_hit",
+            "u": "freedoom/sounds/",
+            "p": "dscacsit.wav",
+            "e": 0
+        },
+        {
+            "id": "monster_hit_precomp",
+            "layers": [
+                {
+                    "ty": 6,
+                    "ip": 1,
+                    "op": 108,
+                    "st": 1,
+                    "refId": "monster_hit",
+                    "au": {
+                        "lv": {
+                            "a": 0,
+                            "k": [
+                                100,
+                                100
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "monster_death",
+            "u": "freedoom/sounds/",
+            "p": "dscacdth.wav",
+            "e": 0
+        },
+        {
+            "id": "monster_death_precomp",
+            "layers": [
+                {
+                    "ty": 6,
+                    "ip": 1,
+                    "op": 78,
+                    "st": 1,
+                    "refId": "monster_death",
+                    "au": {
+                        "lv": {
+                            "a": 0,
+                            "k": [
+                                100,
+                                100
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "stfdead0",
+            "u": "freedoom/graphics/",
+            "p": "stfdead0.png",
+            "e": 0,
+            "w": 24,
+            "h": 31
+        },
+        {
+            "id": "stfst00",
+            "u": "freedoom/graphics/",
+            "p": "stfst00.png",
+            "e": 0,
+            "w": 24,
+            "h": 29
+        },
+        {
+            "id": "stfst01",
+            "u": "freedoom/graphics/",
+            "p": "stfst01.png",
+            "e": 0,
+            "w": 24,
+            "h": 29
+        },
+        {
+            "id": "stfst02",
+            "u": "freedoom/graphics/",
+            "p": "stfst02.png",
+            "e": 0,
+            "w": 24,
+            "h": 29
+        },
+        {
+            "id": "stfst01",
+            "u": "freedoom/graphics/",
+            "p": "stfst01.png",
+            "e": 0,
+            "w": 24,
+            "h": 29
+        },
+        {
+            "id": "stfouch0",
+            "u": "freedoom/graphics/",
+            "p": "stfouch0.png",
+            "e": 0,
+            "w": 24,
+            "h": 31
+        },
+        {
+            "id": "stfkill0",
+            "u": "freedoom/graphics/",
+            "p": "stfkill0.png",
+            "e": 0,
+            "w": 24,
+            "h": 30
+        },
+        {
+            "id": "stfst10",
+            "u": "freedoom/graphics/",
+            "p": "stfst10.png",
+            "e": 0,
+            "w": 24,
+            "h": 29
+        },
+        {
+            "id": "stfst11",
+            "u": "freedoom/graphics/",
+            "p": "stfst11.png",
+            "e": 0,
+            "w": 24,
+            "h": 29
+        },
+        {
+            "id": "stfst12",
+            "u": "freedoom/graphics/",
+            "p": "stfst12.png",
+            "e": 0,
+            "w": 24,
+            "h": 29
+        },
+        {
+            "id": "stfst11",
+            "u": "freedoom/graphics/",
+            "p": "stfst11.png",
+            "e": 0,
+            "w": 24,
+            "h": 29
+        },
+        {
+            "id": "stfouch1",
+            "u": "freedoom/graphics/",
+            "p": "stfouch1.png",
+            "e": 0,
+            "w": 24,
+            "h": 31
+        },
+        {
+            "id": "stfkill1",
+            "u": "freedoom/graphics/",
+            "p": "stfkill1.png",
+            "e": 0,
+            "w": 24,
+            "h": 30
+        },
+        {
+            "id": "stfst20",
+            "u": "freedoom/graphics/",
+            "p": "stfst20.png",
+            "e": 0,
+            "w": 24,
+            "h": 29
+        },
+        {
+            "id": "stfst21",
+            "u": "freedoom/graphics/",
+            "p": "stfst21.png",
+            "e": 0,
+            "w": 24,
+            "h": 29
+        },
+        {
+            "id": "stfst22",
+            "u": "freedoom/graphics/",
+            "p": "stfst22.png",
+            "e": 0,
+            "w": 24,
+            "h": 29
+        },
+        {
+            "id": "stfst21",
+            "u": "freedoom/graphics/",
+            "p": "stfst21.png",
+            "e": 0,
+            "w": 24,
+            "h": 29
+        },
+        {
+            "id": "stfouch2",
+            "u": "freedoom/graphics/",
+            "p": "stfouch2.png",
+            "e": 0,
+            "w": 24,
+            "h": 31
+        },
+        {
+            "id": "stfkill2",
+            "u": "freedoom/graphics/",
+            "p": "stfkill2.png",
+            "e": 0,
+            "w": 24,
+            "h": 30
+        },
+        {
+            "id": "stfst30",
+            "u": "freedoom/graphics/",
+            "p": "stfst30.png",
+            "e": 0,
+            "w": 24,
+            "h": 29
+        },
+        {
+            "id": "stfst31",
+            "u": "freedoom/graphics/",
+            "p": "stfst31.png",
+            "e": 0,
+            "w": 24,
+            "h": 29
+        },
+        {
+            "id": "stfst32",
+            "u": "freedoom/graphics/",
+            "p": "stfst32.png",
+            "e": 0,
+            "w": 24,
+            "h": 29
+        },
+        {
+            "id": "stfst31",
+            "u": "freedoom/graphics/",
+            "p": "stfst31.png",
+            "e": 0,
+            "w": 24,
+            "h": 29
+        },
+        {
+            "id": "stfouch3",
+            "u": "freedoom/graphics/",
+            "p": "stfouch3.png",
+            "e": 0,
+            "w": 24,
+            "h": 31
+        },
+        {
+            "id": "stfkill3",
+            "u": "freedoom/graphics/",
+            "p": "stfkill3.png",
+            "e": 0,
+            "w": 24,
+            "h": 30
+        },
+        {
+            "id": "stfst40",
+            "u": "freedoom/graphics/",
+            "p": "stfst40.png",
+            "e": 0,
+            "w": 24,
+            "h": 29
+        },
+        {
+            "id": "stfst41",
+            "u": "freedoom/graphics/",
+            "p": "stfst41.png",
+            "e": 0,
+            "w": 24,
+            "h": 29
+        },
+        {
+            "id": "stfst42",
+            "u": "freedoom/graphics/",
+            "p": "stfst42.png",
+            "e": 0,
+            "w": 24,
+            "h": 29
+        },
+        {
+            "id": "stfst41",
+            "u": "freedoom/graphics/",
+            "p": "stfst41.png",
+            "e": 0,
+            "w": 24,
+            "h": 29
+        },
+        {
+            "id": "stfouch4",
+            "u": "freedoom/graphics/",
+            "p": "stfouch4.png",
+            "e": 0,
+            "w": 24,
+            "h": 31
+        },
+        {
+            "id": "stfkill4",
+            "u": "freedoom/graphics/",
+            "p": "stfkill4.png",
+            "e": 0,
+            "w": 24,
+            "h": 30
+        },
+        {
+            "id": "stbar",
+            "u": "freedoom/graphics/",
+            "p": "stbar.png",
+            "e": 0,
+            "w": 320,
+            "h": 32
+        },
+        {
+            "id": "sht2i0",
+            "u": "freedoom/sprites/",
+            "p": "sht2i0.png",
+            "e": 0,
+            "w": 56,
+            "h": 37
+        },
+        {
+            "id": "sht2j0",
+            "u": "freedoom/sprites/",
+            "p": "sht2j0.png",
+            "e": 0,
+            "w": 82,
+            "h": 55
+        },
+        {
+            "id": "sht2a0",
+            "u": "freedoom/sprites/",
+            "p": "sht2a0.png",
+            "e": 0,
+            "w": 91,
+            "h": 96
+        },
+        {
+            "id": "sht2b0",
+            "u": "freedoom/sprites/",
+            "p": "sht2b0.png",
+            "e": 0,
+            "w": 92,
+            "h": 102
+        },
+        {
+            "id": "sht2c0",
+            "u": "freedoom/sprites/",
+            "p": "sht2c0.png",
+            "e": 0,
+            "w": 93,
+            "h": 78
+        },
+        {
+            "id": "sht2d0",
+            "u": "freedoom/sprites/",
+            "p": "sht2d0.png",
+            "e": 0,
+            "w": 200,
+            "h": 28
+        },
+        {
+            "id": "sht2e0",
+            "u": "freedoom/sprites/",
+            "p": "sht2e0.png",
+            "e": 0,
+            "w": 164,
+            "h": 76
+        },
+        {
+            "id": "sht2f0",
+            "u": "freedoom/sprites/",
+            "p": "sht2f0.png",
+            "e": 0,
+            "w": 127,
+            "h": 57
+        },
+        {
+            "id": "sht2g0",
+            "u": "freedoom/sprites/",
+            "p": "sht2g0.png",
+            "e": 0,
+            "w": 87,
+            "h": 34
+        },
+        {
+            "id": "sht2h0",
+            "u": "freedoom/sprites/",
+            "p": "sht2h0.png",
+            "e": 0,
+            "w": 93,
+            "h": 78
+        },
+        {
+            "id": "arm1b0",
+            "u": "freedoom/sprites/",
+            "p": "arm1b0.png",
+            "e": 0,
+            "w": 31,
+            "h": 17
+        },
+        {
+            "id": "bar1b0",
+            "u": "freedoom/sprites/",
+            "p": "bar1b0.png",
+            "e": 0,
+            "w": 23,
+            "h": 32
+        },
+        {
+            "id": "bexpa0",
+            "u": "freedoom/sprites/",
+            "p": "bexpa0.png",
+            "e": 0,
+            "w": 23,
+            "h": 32
+        },
+        {
+            "id": "bexpb0",
+            "u": "freedoom/sprites/",
+            "p": "bexpb0.png",
+            "e": 0,
+            "w": 25,
+            "h": 31
+        },
+        {
+            "id": "bexpc0",
+            "u": "freedoom/sprites/",
+            "p": "bexpc0.png",
+            "e": 0,
+            "w": 36,
+            "h": 40
+        },
+        {
+            "id": "bexpd0",
+            "u": "freedoom/sprites/",
+            "p": "bexpd0.png",
+            "e": 0,
+            "w": 57,
+            "h": 50
+        },
+        {
+            "id": "bexpe0",
+            "u": "freedoom/sprites/",
+            "p": "bexpe0.png",
+            "e": 0,
+            "w": 59,
+            "h": 53
+        },
+        {
+            "id": "headb1",
+            "u": "freedoom/sprites/",
+            "p": "headb1.png",
+            "e": 0,
+            "w": 61,
+            "h": 66
+        },
+        {
+            "id": "heade1",
+            "u": "freedoom/sprites/",
+            "p": "heade1.png",
+            "e": 0,
+            "w": 63,
+            "h": 67
+        },
+        {
+            "id": "headf1",
+            "u": "freedoom/sprites/",
+            "p": "headf1.png",
+            "e": 0,
+            "w": 61,
+            "h": 68
+        },
+        {
+            "id": "headg0",
+            "u": "freedoom/sprites/",
+            "p": "headg0.png",
+            "e": 0,
+            "w": 61,
+            "h": 66
+        },
+        {
+            "id": "headh0",
+            "u": "freedoom/sprites/",
+            "p": "headh0.png",
+            "e": 0,
+            "w": 79,
+            "h": 66
+        },
+        {
+            "id": "headi0",
+            "u": "freedoom/sprites/",
+            "p": "headi0.png",
+            "e": 0,
+            "w": 83,
+            "h": 73
+        },
+        {
+            "id": "headj0",
+            "u": "freedoom/sprites/",
+            "p": "headj0.png",
+            "e": 0,
+            "w": 77,
+            "h": 76
+        },
+        {
+            "id": "headk0",
+            "u": "freedoom/sprites/",
+            "p": "headk0.png",
+            "e": 0,
+            "w": 83,
+            "h": 52
+        },
+        {
+            "id": "headl0",
+            "u": "freedoom/sprites/",
+            "p": "headl0.png",
+            "e": 0,
+            "w": 82,
+            "h": 29
+        },
+        {
+            "id": "patches/sw15_1",
+            "u": "freedoom/patches/",
+            "p": "sw15_1.png",
+            "e": 0,
+            "w": 32,
+            "h": 128,
+            "ref_count": 2
+        },
+        {
+            "id": "patches/tomw2_1",
+            "u": "freedoom/patches/",
+            "p": "tomw2_1.png",
+            "e": 0,
+            "w": 128,
+            "h": 72,
+            "ref_count": 1
+        },
+        {
+            "id": "flats/flat20",
+            "u": "freedoom/flats/",
+            "p": "flat20.png",
+            "e": 0,
+            "w": 64,
+            "h": 64,
+            "ref_count": 5
+        },
+        {
+            "id": "flats/grass1",
+            "u": "freedoom/flats/",
+            "p": "grass1.png",
+            "e": 0,
+            "w": 64,
+            "h": 64,
+            "ref_count": 2
+        },
+        {
+            "id": "patches/sw19_3",
+            "u": "freedoom/patches/",
+            "p": "sw19_3.png",
+            "e": 0,
+            "w": 64,
+            "h": 128,
+            "ref_count": 2
+        },
+        {
+            "id": "sw19_4",
+            "u": "freedoom/patches/",
+            "p": "sw19_4.png",
+            "e": 0,
+            "w": 64,
+            "h": 128
+        },
+        {
+            "id": "rsky2",
+            "u": "freedoom/patches/",
+            "p": "rsky2.png",
+            "e": 0,
+            "w": 256,
+            "h": 128
+        }
+    ],
+    "layers": [
+        {
+            "nm": "music",
+            "ty": 0,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {},
+            "refId": "music_precomp",
+            "events": {
+                "load": "thisLayer.sound_play = 0;"
+            },
+            "tm": {
+                "a": 1,
+                "k": [
+                    {
+                        "t": 0,
+                        "s": [
+                            0
+                        ],
+                        "i": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "o": {
+                            "x": 1,
+                            "y": 1
+                        }
+                    },
+                    {
+                        "t": 180,
+                        "s": [
+                            0
+                        ]
+                    }
+                ],
+                "x": "\n                var dt = thisComp.time_delta(thisLayer, time);\n                var $bm_rt = 0;\n\n                thisLayer.sound_play += dt;\n                if ( thisLayer.sound_play > 92 )\n                    thisLayer.sound_play = 0;\n\n                $bm_rt = thisLayer.sound_play;\n            "
+            },
+            "w": 640,
+            "h": 480
+        },
+        {
+            "nm": "barrel_explosion",
+            "ty": 0,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {},
+            "refId": "barrel_explosion_precomp",
+            "events": {
+                "load": "\n                thisLayer.sound_play = 0;\n                thisLayer.sound_duration = 1;\n                thisLayer.play_sound = () => {\n                    if ( thisLayer.sound_play < thisLayer.sound_duration - 0.1 )\n                        thisLayer.sound_play = thisLayer.sound_duration;\n                };\n            "
+            },
+            "tm": {
+                "a": 1,
+                "k": [
+                    {
+                        "t": 0,
+                        "s": [
+                            0
+                        ],
+                        "i": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "o": {
+                            "x": 1,
+                            "y": 1
+                        }
+                    },
+                    {
+                        "t": 180,
+                        "s": [
+                            0
+                        ]
+                    }
+                ],
+                "x": "\n                var dt = thisComp.time_delta(thisLayer, time);\n                var $bm_rt = 0;\n\n                if ( thisLayer.sound_play > 0 )\n                {\n                    $bm_rt = thisLayer.sound_duration - thisLayer.sound_play;\n                    thisLayer.sound_play -= dt;\n                }\n            "
+            },
+            "w": 640,
+            "h": 480
+        },
+        {
+            "nm": "shotgun_sound",
+            "ty": 0,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {},
+            "refId": "shotgun_sound_precomp",
+            "events": {
+                "load": "\n                thisLayer.sound_play = 0;\n                thisLayer.sound_duration = 1;\n                thisLayer.play_sound = () => {\n                    if ( thisLayer.sound_play < thisLayer.sound_duration - 0.1 )\n                        thisLayer.sound_play = thisLayer.sound_duration;\n                };\n            "
+            },
+            "tm": {
+                "a": 1,
+                "k": [
+                    {
+                        "t": 0,
+                        "s": [
+                            0
+                        ],
+                        "i": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "o": {
+                            "x": 1,
+                            "y": 1
+                        }
+                    },
+                    {
+                        "t": 180,
+                        "s": [
+                            0
+                        ]
+                    }
+                ],
+                "x": "\n                var dt = thisComp.time_delta(thisLayer, time);\n                var $bm_rt = 0;\n\n                if ( thisLayer.sound_play > 0 )\n                {\n                    $bm_rt = thisLayer.sound_duration - thisLayer.sound_play;\n                    thisLayer.sound_play -= dt;\n                }\n            "
+            },
+            "w": 640,
+            "h": 480
+        },
+        {
+            "nm": "door_open",
+            "ty": 0,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {},
+            "refId": "door_open_precomp",
+            "events": {
+                "load": "\n                thisLayer.sound_play = 0;\n                thisLayer.sound_duration = 1;\n                thisLayer.play_sound = () => {\n                    if ( thisLayer.sound_play < thisLayer.sound_duration - 0.1 )\n                        thisLayer.sound_play = thisLayer.sound_duration;\n                };\n            "
+            },
+            "tm": {
+                "a": 1,
+                "k": [
+                    {
+                        "t": 0,
+                        "s": [
+                            0
+                        ],
+                        "i": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "o": {
+                            "x": 1,
+                            "y": 1
+                        }
+                    },
+                    {
+                        "t": 180,
+                        "s": [
+                            0
+                        ]
+                    }
+                ],
+                "x": "\n                var dt = thisComp.time_delta(thisLayer, time);\n                var $bm_rt = 0;\n\n                if ( thisLayer.sound_play > 0 )\n                {\n                    $bm_rt = thisLayer.sound_duration - thisLayer.sound_play;\n                    thisLayer.sound_play -= dt;\n                }\n            "
+            },
+            "w": 640,
+            "h": 480
+        },
+        {
+            "nm": "door_close",
+            "ty": 0,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {},
+            "refId": "door_close_precomp",
+            "events": {
+                "load": "\n                thisLayer.sound_play = 0;\n                thisLayer.sound_duration = 1;\n                thisLayer.play_sound = () => {\n                    if ( thisLayer.sound_play < thisLayer.sound_duration - 0.1 )\n                        thisLayer.sound_play = thisLayer.sound_duration;\n                };\n            "
+            },
+            "tm": {
+                "a": 1,
+                "k": [
+                    {
+                        "t": 0,
+                        "s": [
+                            0
+                        ],
+                        "i": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "o": {
+                            "x": 1,
+                            "y": 1
+                        }
+                    },
+                    {
+                        "t": 180,
+                        "s": [
+                            0
+                        ]
+                    }
+                ],
+                "x": "\n                var dt = thisComp.time_delta(thisLayer, time);\n                var $bm_rt = 0;\n\n                if ( thisLayer.sound_play > 0 )\n                {\n                    $bm_rt = thisLayer.sound_duration - thisLayer.sound_play;\n                    thisLayer.sound_play -= dt;\n                }\n            "
+            },
+            "w": 640,
+            "h": 480
+        },
+        {
+            "nm": "item_pickup",
+            "ty": 0,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {},
+            "refId": "item_pickup_precomp",
+            "events": {
+                "load": "\n                thisLayer.sound_play = 0;\n                thisLayer.sound_duration = 0.2;\n                thisLayer.play_sound = () => {\n                    if ( thisLayer.sound_play < thisLayer.sound_duration - 0.1 )\n                        thisLayer.sound_play = thisLayer.sound_duration;\n                };\n            "
+            },
+            "tm": {
+                "a": 1,
+                "k": [
+                    {
+                        "t": 0,
+                        "s": [
+                            0
+                        ],
+                        "i": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "o": {
+                            "x": 1,
+                            "y": 1
+                        }
+                    },
+                    {
+                        "t": 180,
+                        "s": [
+                            0
+                        ]
+                    }
+                ],
+                "x": "\n                var dt = thisComp.time_delta(thisLayer, time);\n                var $bm_rt = 0;\n\n                if ( thisLayer.sound_play > 0 )\n                {\n                    $bm_rt = thisLayer.sound_duration - thisLayer.sound_play;\n                    thisLayer.sound_play -= dt;\n                }\n            "
+            },
+            "w": 640,
+            "h": 480
+        },
+        {
+            "nm": "player_pain",
+            "ty": 0,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {},
+            "refId": "player_pain_precomp",
+            "events": {
+                "load": "\n                thisLayer.sound_play = 0;\n                thisLayer.sound_duration = 0.8;\n                thisLayer.play_sound = () => {\n                    if ( thisLayer.sound_play < thisLayer.sound_duration - 0.1 )\n                        thisLayer.sound_play = thisLayer.sound_duration;\n                };\n            "
+            },
+            "tm": {
+                "a": 1,
+                "k": [
+                    {
+                        "t": 0,
+                        "s": [
+                            0
+                        ],
+                        "i": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "o": {
+                            "x": 1,
+                            "y": 1
+                        }
+                    },
+                    {
+                        "t": 180,
+                        "s": [
+                            0
+                        ]
+                    }
+                ],
+                "x": "\n                var dt = thisComp.time_delta(thisLayer, time);\n                var $bm_rt = 0;\n\n                if ( thisLayer.sound_play > 0 )\n                {\n                    $bm_rt = thisLayer.sound_duration - thisLayer.sound_play;\n                    thisLayer.sound_play -= dt;\n                }\n            "
+            },
+            "w": 640,
+            "h": 480
+        },
+        {
+            "nm": "player_death",
+            "ty": 0,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {},
+            "refId": "player_death_precomp",
+            "events": {
+                "load": "\n                thisLayer.sound_play = 0;\n                thisLayer.sound_duration = 0.75;\n                thisLayer.play_sound = () => {\n                    if ( thisLayer.sound_play < thisLayer.sound_duration - 0.1 )\n                        thisLayer.sound_play = thisLayer.sound_duration;\n                };\n            "
+            },
+            "tm": {
+                "a": 1,
+                "k": [
+                    {
+                        "t": 0,
+                        "s": [
+                            0
+                        ],
+                        "i": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "o": {
+                            "x": 1,
+                            "y": 1
+                        }
+                    },
+                    {
+                        "t": 180,
+                        "s": [
+                            0
+                        ]
+                    }
+                ],
+                "x": "\n                var dt = thisComp.time_delta(thisLayer, time);\n                var $bm_rt = 0;\n\n                if ( thisLayer.sound_play > 0 )\n                {\n                    $bm_rt = thisLayer.sound_duration - thisLayer.sound_play;\n                    thisLayer.sound_play -= dt;\n                }\n            "
+            },
+            "w": 640,
+            "h": 480
+        },
+        {
+            "nm": "monster_hit",
+            "ty": 0,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {},
+            "refId": "monster_hit_precomp",
+            "events": {
+                "load": "\n                thisLayer.sound_play = 0;\n                thisLayer.sound_duration = 1.8;\n                thisLayer.play_sound = () => {\n                    if ( thisLayer.sound_play < thisLayer.sound_duration - 0.1 )\n                        thisLayer.sound_play = thisLayer.sound_duration;\n                };\n            "
+            },
+            "tm": {
+                "a": 1,
+                "k": [
+                    {
+                        "t": 0,
+                        "s": [
+                            0
+                        ],
+                        "i": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "o": {
+                            "x": 1,
+                            "y": 1
+                        }
+                    },
+                    {
+                        "t": 180,
+                        "s": [
+                            0
+                        ]
+                    }
+                ],
+                "x": "\n                var dt = thisComp.time_delta(thisLayer, time);\n                var $bm_rt = 0;\n\n                if ( thisLayer.sound_play > 0 )\n                {\n                    $bm_rt = thisLayer.sound_duration - thisLayer.sound_play;\n                    thisLayer.sound_play -= dt;\n                }\n            "
+            },
+            "w": 640,
+            "h": 480
+        },
+        {
+            "nm": "monster_death",
+            "ty": 0,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {},
+            "refId": "monster_death_precomp",
+            "events": {
+                "load": "\n                thisLayer.sound_play = 0;\n                thisLayer.sound_duration = 1.3;\n                thisLayer.play_sound = () => {\n                    if ( thisLayer.sound_play < thisLayer.sound_duration - 0.1 )\n                        thisLayer.sound_play = thisLayer.sound_duration;\n                };\n            "
+            },
+            "tm": {
+                "a": 1,
+                "k": [
+                    {
+                        "t": 0,
+                        "s": [
+                            0
+                        ],
+                        "i": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "o": {
+                            "x": 1,
+                            "y": 1
+                        }
+                    },
+                    {
+                        "t": 180,
+                        "s": [
+                            0
+                        ]
+                    }
+                ],
+                "x": "\n                var dt = thisComp.time_delta(thisLayer, time);\n                var $bm_rt = 0;\n\n                if ( thisLayer.sound_play > 0 )\n                {\n                    $bm_rt = thisLayer.sound_duration - thisLayer.sound_play;\n                    thisLayer.sound_play -= dt;\n                }\n            "
+            },
+            "w": 640,
+            "h": 480
+        },
+        {
+            "nm": "text_ammo",
+            "ty": 5,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        85,
+                        450
+                    ]
+                }
+            },
+            "ddd": 0,
+            "t": {
+                "a": [],
+                "d": {
+                    "k": [
+                        {
+                            "s": {
+                                "f": "Bungee Regular",
+                                "fc": [
+                                    0.9,
+                                    0,
+                                    0
+                                ],
+                                "s": 40,
+                                "t": "",
+                                "j": 1
+                            },
+                            "t": 0
+                        }
+                    ],
+                    "x": "var $bm_rt = thisComp.ammo.toString();"
+                },
+                "m": {
+                    "a": {
+                        "a": 0,
+                        "k": [
+                            0,
+                            0
+                        ]
+                    },
+                    "g": 3
+                },
+                "p": {}
+            }
+        },
+        {
+            "nm": "text_frags",
+            "ty": 5,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        280,
+                        450
+                    ]
+                }
+            },
+            "ddd": 0,
+            "t": {
+                "a": [],
+                "d": {
+                    "k": [
+                        {
+                            "s": {
+                                "f": "Bungee Regular",
+                                "fc": [
+                                    0.9,
+                                    0,
+                                    0
+                                ],
+                                "s": 40,
+                                "t": "aa",
+                                "j": 1
+                            },
+                            "t": 0
+                        }
+                    ],
+                    "x": "var $bm_rt = thisComp.frags.toString();"
+                },
+                "m": {
+                    "a": {
+                        "a": 0,
+                        "k": [
+                            0,
+                            0
+                        ]
+                    },
+                    "g": 3
+                },
+                "p": {}
+            }
+        },
+        {
+            "nm": "text_hp",
+            "ty": 5,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        205,
+                        450
+                    ]
+                }
+            },
+            "ddd": 0,
+            "t": {
+                "a": [],
+                "d": {
+                    "k": [
+                        {
+                            "s": {
+                                "f": "Bungee Regular",
+                                "fc": [
+                                    0.9,
+                                    0,
+                                    0
+                                ],
+                                "s": 40,
+                                "t": "",
+                                "j": 1
+                            },
+                            "t": 0
+                        }
+                    ],
+                    "x": "var $bm_rt = thisComp.health.toString();"
+                },
+                "m": {
+                    "a": {
+                        "a": 0,
+                        "k": [
+                            0,
+                            0
+                        ]
+                    },
+                    "g": 3
+                },
+                "p": {}
+            }
+        },
+        {
+            "nm": "text_armor",
+            "ty": 5,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        468,
+                        450
+                    ]
+                }
+            },
+            "ddd": 0,
+            "t": {
+                "a": [],
+                "d": {
+                    "k": [
+                        {
+                            "s": {
+                                "f": "Bungee Regular",
+                                "fc": [
+                                    0.9,
+                                    0,
+                                    0
+                                ],
+                                "s": 40,
+                                "t": "",
+                                "j": 1
+                            },
+                            "t": 0
+                        }
+                    ],
+                    "x": "var $bm_rt = thisComp.armor.toString();"
+                },
+                "m": {
+                    "a": {
+                        "a": 0,
+                        "k": [
+                            0,
+                            0
+                        ]
+                    },
+                    "g": 3
+                },
+                "p": {}
+            }
+        },
+        {
+            "nm": "guy_30",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 30 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        -1,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfkill4",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_29",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 29 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        -2,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfouch4",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_28",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 28 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfst41",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_27",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 27 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfst42",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_26",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 26 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfst41",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_25",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 25 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfst40",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_24",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 24 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        -1,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfkill3",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_23",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 23 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        -2,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfouch3",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_22",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 22 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfst31",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_21",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 21 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfst32",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_20",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 20 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfst31",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_19",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 19 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfst30",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_18",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 18 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        -1,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfkill2",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_17",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 17 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        -2,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfouch2",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_16",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 16 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfst21",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_15",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 15 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfst22",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_14",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 14 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfst21",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_13",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 13 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfst20",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_12",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 12 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        -1,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfkill1",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_11",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 11 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        -2,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfouch1",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_10",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 10 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfst11",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_9",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 9 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfst12",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_8",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 8 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfst11",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_7",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 7 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfst10",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_6",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 6 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        -1,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfkill0",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_5",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 5 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        -2,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfouch0",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_4",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 4 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfst01",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_3",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 3 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfst02",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_2",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 2 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfst01",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_1",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 1 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "refId": "stfst00",
+            "parent": 1,
+            "ddd": 0
+        },
+        {
+            "nm": "guy_0",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var dt = thisComp.time_delta(thisLayer, time);\n            if ( thisLayer.img_playing )\n            {\n                thisLayer.img_partial_frame += dt * thisLayer.img_speed;\n                thisLayer.img_frame = Math.floor(thisLayer.img_partial_frame);\n                if ( thisLayer.img_frame >= thisLayer.img_active_data.last )\n                    thisLayer.play_animation(thisLayer.img_active_data.next);\n                if ( thisLayer.img_frame_offset )\n                    thisLayer.img_frame += thisLayer.img_frame_offset;\n            }\n\n            var $bm_rt = thisLayer.img_frame == 0 ? 100 : 0;\n        \n/**/"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        296,
+                        422
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        200,
+                        200
+                    ]
+                }
+            },
+            "refId": "stfdead0",
+            "ind": 1,
+            "events": {
+                "load": "thisLayer.img_playing = false;\n            thisLayer.img_frame = 0;\n            thisLayer.img_partial_frame = 0;\n            thisLayer.img_parent = thisLayer;\n            thisLayer.img_frame_offset = 0;\n            thisLayer.play_animation = function(name)\n            {\n                if ( thisLayer.img_active_data && thisLayer.on_animation_end )\n                    thisLayer.on_animation_end(thisLayer.img_active_name);\n\n                thisLayer.img_active_name = name;\n\n                if ( !thisLayer.img_active_name )\n                {\n                    if ( thisLayer.img_active_data )\n                        thisLayer.img_frame = thisLayer.img_active_data.first;\n                    thisLayer.img_playing = false;\n                    thisLayer.img_active_data = undefined;\n                    return;\n                }\n\n                thisLayer.img_active_data = thisLayer.img_data[name];\n                thisLayer.img_playing = thisLayer.img_active_data.first != thisLayer.img_active_data.end || thisLayer.img_active_data.next;\n                thisLayer.img_frame = thisLayer.img_active_data.first;\n                thisLayer.img_partial_frame = thisLayer.img_active_data.first;\n            }\n        \n/**/\n            thisLayer.img_speed = 2;\n            thisLayer.img_count = 31;\n            thisLayer.img_data = {\"dead\":{\"first\":0,\"last\":0},\"default\":{\"first\":1,\"last\":5,\"next\":\"default\"},\"ouch\":{\"first\":5,\"last\":6,\"next\":\"default\"},\"kill\":{\"first\":6,\"last\":7,\"next\":\"default\"}};\n            thisLayer.img_active_data = undefined;\n            thisLayer.img_active_name = undefined;\n            thisLayer.play_animation(\"default\");\n        "
+            },
+            "ddd": 0
+        },
+        {
+            "nm": "hud",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "s": {
+                    "a": 0,
+                    "k": [
+                        200,
+                        200
+                    ]
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        416
+                    ]
+                }
+            },
+            "refId": "stbar"
+        },
+        {
+            "nm": "bg",
+            "ty": 1,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 0,
+                    "x": "var dt = thisComp.time_delta(thisLayer, time);\n\n                if ( thisComp.pain > 0 )\n                {\n                    thisComp.pain -= 1.5 * dt;\n                    if ( thisComp.pain < 0 )\n                        thisComp.pain = 0;\n                }\n\n                var $bm_rt = thisComp.pain * 80;\n            \n/**/"
+                }
+            },
+            "sc": "#ff0000",
+            "sw": 640,
+            "sh": 480,
+            "ddd": 0
+        },
+        {
+            "nm": "shotgun_blast_1",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 1 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        -13,
+                        -9
+                    ]
+                }
+            },
+            "refId": "sht2j0",
+            "parent": 2
+        },
+        {
+            "nm": "shotgun_blast_0",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var dt = thisComp.time_delta(thisLayer, time);\n            if ( thisLayer.img_playing )\n            {\n                thisLayer.img_partial_frame += dt * thisLayer.img_speed;\n                thisLayer.img_frame = Math.floor(thisLayer.img_partial_frame);\n                if ( thisLayer.img_frame >= thisLayer.img_active_data.last )\n                    thisLayer.play_animation(thisLayer.img_active_data.next);\n                if ( thisLayer.img_frame_offset )\n                    thisLayer.img_frame += thisLayer.img_frame_offset;\n            }\n\n            var $bm_rt = thisLayer.img_frame == 0 ? 100 : 0;\n        \n/**/"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        27,
+                        -15
+                    ]
+                }
+            },
+            "refId": "sht2i0",
+            "parent": 3,
+            "ind": 2,
+            "events": {
+                "load": "thisLayer.img_playing = false;\n            thisLayer.img_frame = 0;\n            thisLayer.img_partial_frame = 0;\n            thisLayer.img_parent = thisLayer;\n            thisLayer.img_frame_offset = 0;\n            thisLayer.play_animation = function(name)\n            {\n                if ( thisLayer.img_active_data && thisLayer.on_animation_end )\n                    thisLayer.on_animation_end(thisLayer.img_active_name);\n\n                thisLayer.img_active_name = name;\n\n                if ( !thisLayer.img_active_name )\n                {\n                    if ( thisLayer.img_active_data )\n                        thisLayer.img_frame = thisLayer.img_active_data.first;\n                    thisLayer.img_playing = false;\n                    thisLayer.img_active_data = undefined;\n                    return;\n                }\n\n                thisLayer.img_active_data = thisLayer.img_data[name];\n                thisLayer.img_playing = thisLayer.img_active_data.first != thisLayer.img_active_data.end || thisLayer.img_active_data.next;\n                thisLayer.img_frame = thisLayer.img_active_data.first;\n                thisLayer.img_partial_frame = thisLayer.img_active_data.first;\n            }\n        \n/**/\n            thisLayer.img_speed = 10;\n            thisLayer.img_count = 2;\n            thisLayer.img_data = {\"default\":{\"first\":-1,\"last\":-1},\"shoot\":{\"first\":0,\"last\":2,\"next\":\"next\"},\"next\":{\"first\":0,\"last\":1,\"next\":\"default\"}};\n            thisLayer.img_active_data = undefined;\n            thisLayer.img_active_name = undefined;\n            thisLayer.play_animation(\"default\");\n        thisLayer.on_animation_end = function(name) {\n            if ( name == \"next\" )\n                thisComp(\"shotgun_0\").play_animation(\"reload\");\n        };\n    \n/**/"
+            }
+        },
+        {
+            "nm": "shotgun_7",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 7 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        -1,
+                        18
+                    ]
+                }
+            },
+            "refId": "sht2h0",
+            "parent": 3
+        },
+        {
+            "nm": "shotgun_6",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 6 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        2,
+                        62
+                    ]
+                }
+            },
+            "refId": "sht2g0",
+            "parent": 3
+        },
+        {
+            "nm": "shotgun_5",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 5 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        -18,
+                        39
+                    ]
+                }
+            },
+            "refId": "sht2f0",
+            "parent": 3
+        },
+        {
+            "nm": "shotgun_4",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 4 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        -36.5,
+                        20
+                    ]
+                }
+            },
+            "refId": "sht2e0",
+            "parent": 3
+        },
+        {
+            "nm": "shotgun_3",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 3 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        -54.5,
+                        68
+                    ]
+                }
+            },
+            "refId": "sht2d0",
+            "parent": 3
+        },
+        {
+            "nm": "shotgun_2",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 2 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        -1,
+                        18
+                    ]
+                }
+            },
+            "refId": "sht2c0",
+            "parent": 3
+        },
+        {
+            "nm": "shotgun_1",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var $bm_rt = 1 == thisLayer.parent.img_frame ? 100 : 0;"
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        -0.5,
+                        -6
+                    ]
+                }
+            },
+            "refId": "sht2b0",
+            "parent": 3
+        },
+        {
+            "nm": "shotgun_0",
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "o": {
+                    "a": 0,
+                    "k": 100,
+                    "x": "var dt = thisComp.time_delta(thisLayer, time);\n            if ( thisLayer.img_playing )\n            {\n                thisLayer.img_partial_frame += dt * thisLayer.img_speed;\n                thisLayer.img_frame = Math.floor(thisLayer.img_partial_frame);\n                if ( thisLayer.img_frame >= thisLayer.img_active_data.last )\n                    thisLayer.play_animation(thisLayer.img_active_data.next);\n                if ( thisLayer.img_frame_offset )\n                    thisLayer.img_frame += thisLayer.img_frame_offset;\n            }\n\n            var $bm_rt = thisLayer.img_frame == 0 ? 100 : 0;\n        \n/**/"
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        200,
+                        200
+                    ]
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        229,
+                        224
+                    ],
+                    "x": "var $bm_rt = [value[0], value[1]];\n\n        if ( thisComp.moving )\n        {\n            var angle = time / 3 * Math.PI * 4;\n            $bm_rt[0] += Math.cos(angle) * 30;\n            $bm_rt[1] += Math.abs(Math.sin(angle) * 10);\n        }\n        if ( thisComp.health <= 0 )\n            $bm_rt[1] = 10000;\n    \n/**/"
+                }
+            },
+            "refId": "sht2a0",
+            "ind": 3,
+            "events": {
+                "load": "thisLayer.img_playing = false;\n            thisLayer.img_frame = 0;\n            thisLayer.img_partial_frame = 0;\n            thisLayer.img_parent = thisLayer;\n            thisLayer.img_frame_offset = 0;\n            thisLayer.play_animation = function(name)\n            {\n                if ( thisLayer.img_active_data && thisLayer.on_animation_end )\n                    thisLayer.on_animation_end(thisLayer.img_active_name);\n\n                thisLayer.img_active_name = name;\n\n                if ( !thisLayer.img_active_name )\n                {\n                    if ( thisLayer.img_active_data )\n                        thisLayer.img_frame = thisLayer.img_active_data.first;\n                    thisLayer.img_playing = false;\n                    thisLayer.img_active_data = undefined;\n                    return;\n                }\n\n                thisLayer.img_active_data = thisLayer.img_data[name];\n                thisLayer.img_playing = thisLayer.img_active_data.first != thisLayer.img_active_data.end || thisLayer.img_active_data.next;\n                thisLayer.img_frame = thisLayer.img_active_data.first;\n                thisLayer.img_partial_frame = thisLayer.img_active_data.first;\n            }\n        \n/**/\n            thisLayer.img_speed = 7;\n            thisLayer.img_count = 8;\n            thisLayer.img_data = {\"dead\":{\"first\":-1,\"last\":-1},\"default\":{\"first\":0,\"last\":0},\"reload\":{\"first\":0,\"last\":8,\"next\":\"default\"}};\n            thisLayer.img_active_data = undefined;\n            thisLayer.img_active_name = undefined;\n            thisLayer.play_animation(\"default\");\n        "
+            }
+        },
+        {
+            "nm": "Camera",
+            "ty": 13,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        -10
+                    ]
+                },
+                "rx": {
+                    "a": 0,
+                    "k": 0
+                },
+                "ry": {
+                    "a": 0,
+                    "k": 0
+                },
+                "rz": {
+                    "a": 0,
+                    "k": 0
+                },
+                "or": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "pe": {
+                "a": 0,
+                "k": 256
+            },
+            "ddd": 1
+        },
+        {
+            "nm": "Move Parent",
+            "ty": 3,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "a": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "x": "var dt = thisComp.time_delta(thisLayer, time);\n\n            if ( thisComp.health > 0 )\n            {\n\n                if ( thisComp.mouse_dx )\n                {\n                    thisComp.char_angle -= dt * thisComp.mouse_dx / 8 * Math.PI;\n                    thisComp.mouse_dx  = 0;\n                }\n\n                if ( thisComp.mouse_dy )\n                {\n                    thisComp.look_angle += dt * thisComp.mouse_dy / 8 * Math.PI;\n                    thisComp.look_angle = clamp(thisComp.look_angle, - Math.PI / 2, Math.PI / 2);\n                    thisComp.mouse_dy  = 0;\n                }\n\n\n                var left = thisComp.keys_pressed.ArrowLeft || thisComp.keys_pressed.a || thisComp.keys_pressed[\",\"];\n                var right = thisComp.keys_pressed.ArrowRight || thisComp.keys_pressed.d || thisComp.keys_pressed[\".\"];\n                var dx = 0;\n                if ( left && right )\n                    dx = 0;\n                else if ( left )\n                    dx = -1;\n                else if ( right )\n                    dx = 1;\n\n                var up = thisComp.keys_pressed.ArrowUp || thisComp.keys_pressed.w;\n                var down = thisComp.keys_pressed.ArrowDown || thisComp.keys_pressed.s;\n                var dz = 0;\n                if ( up && down )\n                    dz = 0;\n                else if ( up )\n                    dz = 1;\n                else if ( down )\n                    dz = -1;\n\n                thisComp.moving = dz != 0 || dx != 0;\n\n                if ( thisComp.moving )\n                {\n                    var speed = 150 * 2;\n\n                    var char_x = thisComp.char_x +\n                        dz * dt * -speed * Math.sin(thisComp.char_angle) +\n                        dx * dt * -speed * Math.sin(thisComp.char_angle - Math.PI / 2)\n                    ;\n                    var char_z = thisComp.char_z +\n                        dz * dt * speed * Math.cos(thisComp.char_angle) +\n                        dx * dt * speed * Math.cos(thisComp.char_angle - Math.PI / 2)\n                    ;\n                    if ( !thisComp.hit_wall(char_x, char_z, 20) )\n                    {\n                        thisComp.char_x = char_x;\n                        thisComp.char_z = char_z;\n                    }\n                    else\n                    {\n                        if ( !thisComp.hit_wall(thisComp.char_x, char_z, 20) )\n                            thisComp.char_z = char_z;\n                        else if ( !thisComp.hit_wall(char_x, thisComp.char_z, 20) )\n                            thisComp.char_x = char_x;\n                        else\n                            thisComp.moving = 0;\n                    }\n                }\n\n                thisComp.hit_objects(thisComp.char_x, thisComp.char_z);\n            }\n            else if ( thisComp.char_y < -8 )\n            {\n                thisComp.char_y += dt * 64;\n            }\n\n            var $bm_rt = [thisComp.char_x, thisComp.char_y, thisComp.char_z];\n\n            \n/**/"
+                },
+                "rx": {
+                    "a": 0,
+                    "k": 0
+                },
+                "ry": {
+                    "a": 0,
+                    "k": 0
+                },
+                "rz": {
+                    "a": 0,
+                    "k": 0
+                },
+                "or": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "x": "var $bm_rt = [thisComp.look_angle * 180 / Math.PI, thisComp.char_angle * 180 / Math.PI, 0];\n            \n/**/"
+                }
+            },
+            "ind": 4,
+            "ddd": 1,
+            "events": {
+                "load": "thisComp.char_x = 0;\n                thisComp.char_z = 0;\n                thisComp.char_y = 0;\n                thisComp.moving = false;\n            \n/**/"
+            }
+        },
+        {
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        -64,
+                        -128,
+                        128
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100,
+                        100
+                    ]
+                },
+                "rx": {
+                    "a": 0,
+                    "k": 0
+                },
+                "ry": {
+                    "a": 0,
+                    "k": 0
+                },
+                "rz": {
+                    "a": 0,
+                    "k": 0
+                },
+                "or": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "ddd": 1,
+            "parent": 4,
+            "refId": "patches/sw15_1"
+        },
+        {
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        -128,
+                        64
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100,
+                        100
+                    ]
+                },
+                "rx": {
+                    "a": 0,
+                    "k": 0
+                },
+                "ry": {
+                    "a": 0,
+                    "k": 0
+                },
+                "rz": {
+                    "a": 0,
+                    "k": 0
+                },
+                "or": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "ddd": 1,
+            "parent": 4,
+            "refId": "patches/sw15_1"
+        },
+        {
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        -72,
+                        0
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100,
+                        100
+                    ]
+                },
+                "rx": {
+                    "a": 0,
+                    "k": 0
+                },
+                "ry": {
+                    "a": 0,
+                    "k": 0
+                },
+                "rz": {
+                    "a": 0,
+                    "k": 0
+                },
+                "or": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "ddd": 1,
+            "parent": 4,
+            "refId": "patches/tomw2_1"
+        },
+        {
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        -128,
+                        0,
+                        128
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        200,
+                        200,
+                        100
+                    ]
+                },
+                "rx": {
+                    "a": 0,
+                    "k": -90
+                },
+                "ry": {
+                    "a": 0,
+                    "k": 0
+                },
+                "rz": {
+                    "a": 0,
+                    "k": 0
+                },
+                "or": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "ddd": 1,
+            "parent": 4,
+            "refId": "flats/flat20"
+        },
+        {
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        -128,
+                        0,
+                        -128
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        200,
+                        200,
+                        100
+                    ]
+                },
+                "rx": {
+                    "a": 0,
+                    "k": -90
+                },
+                "ry": {
+                    "a": 0,
+                    "k": 0
+                },
+                "rz": {
+                    "a": 0,
+                    "k": 0
+                },
+                "or": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "ddd": 1,
+            "parent": 4,
+            "refId": "flats/flat20"
+        },
+        {
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        200,
+                        200,
+                        100
+                    ]
+                },
+                "rx": {
+                    "a": 0,
+                    "k": -90
+                },
+                "ry": {
+                    "a": 0,
+                    "k": 0
+                },
+                "rz": {
+                    "a": 0,
+                    "k": 0
+                },
+                "or": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "ddd": 1,
+            "parent": 4,
+            "refId": "flats/grass1"
+        },
+        {
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        4480
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        200,
+                        200,
+                        100
+                    ]
+                },
+                "rx": {
+                    "a": 0,
+                    "k": -90
+                },
+                "ry": {
+                    "a": 0,
+                    "k": 0
+                },
+                "rz": {
+                    "a": 0,
+                    "k": 0
+                },
+                "or": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "ddd": 1,
+            "parent": 4,
+            "refId": "flats/grass1"
+        },
+        {
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        448,
+                        -128,
+                        0
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100,
+                        100
+                    ]
+                },
+                "rx": {
+                    "a": 0,
+                    "k": 0
+                },
+                "ry": {
+                    "a": 0,
+                    "k": 0
+                },
+                "rz": {
+                    "a": 0,
+                    "k": 0
+                },
+                "or": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "ddd": 1,
+            "parent": 4,
+            "refId": "patches/sw19_3"
+        },
+        {
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        128
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        200,
+                        200,
+                        100
+                    ]
+                },
+                "rx": {
+                    "a": 0,
+                    "k": -90
+                },
+                "ry": {
+                    "a": 0,
+                    "k": 0
+                },
+                "rz": {
+                    "a": 0,
+                    "k": 0
+                },
+                "or": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "ddd": 1,
+            "parent": 4,
+            "refId": "patches/sw19_3"
+        },
+        {
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        -128,
+                        0,
+                        0
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        200,
+                        200,
+                        100
+                    ]
+                },
+                "rx": {
+                    "a": 0,
+                    "k": -90
+                },
+                "ry": {
+                    "a": 0,
+                    "k": 0
+                },
+                "rz": {
+                    "a": 0,
+                    "k": 0
+                },
+                "or": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "ddd": 1,
+            "parent": 4,
+            "refId": "flats/flat20"
+        },
+        {
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        -128,
+                        0,
+                        -256
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        200,
+                        200,
+                        100
+                    ]
+                },
+                "rx": {
+                    "a": 0,
+                    "k": -90
+                },
+                "ry": {
+                    "a": 0,
+                    "k": 0
+                },
+                "rz": {
+                    "a": 0,
+                    "k": 0
+                },
+                "or": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "ddd": 1,
+            "parent": 4,
+            "refId": "flats/flat20"
+        },
+        {
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        -128
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        200,
+                        200,
+                        100
+                    ]
+                },
+                "rx": {
+                    "a": 0,
+                    "k": -90
+                },
+                "ry": {
+                    "a": 0,
+                    "k": 0
+                },
+                "rz": {
+                    "a": 0,
+                    "k": 0
+                },
+                "or": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "ddd": 1,
+            "parent": 4,
+            "refId": "flats/flat20"
+        },
+        {
+            "nm": "Skybox",
+            "ty": 3,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "rx": {
+                    "a": 0,
+                    "k": 0
+                },
+                "ry": {
+                    "a": 0,
+                    "k": 0
+                },
+                "rz": {
+                    "a": 0,
+                    "k": 0
+                },
+                "or": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "x": "var $bm_rt = [thisComp.look_angle * 180 / Math.PI, thisComp.char_angle * 180 / Math.PI, 0];\n            \n/**/"
+                }
+            },
+            "ind": 5,
+            "ddd": 1
+        },
+        {
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        -128,
+                        -136,
+                        128
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100,
+                        100
+                    ]
+                },
+                "rx": {
+                    "a": 0,
+                    "k": 0
+                },
+                "ry": {
+                    "a": 0,
+                    "k": 0
+                },
+                "rz": {
+                    "a": 0,
+                    "k": 0
+                },
+                "or": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "ddd": 1,
+            "parent": 5,
+            "refId": "rsky2"
+        },
+        {
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        128,
+                        -136,
+                        128
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100,
+                        100
+                    ]
+                },
+                "rx": {
+                    "a": 0,
+                    "k": 0
+                },
+                "ry": {
+                    "a": 0,
+                    "k": 90
+                },
+                "rz": {
+                    "a": 0,
+                    "k": 0
+                },
+                "or": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "ddd": 1,
+            "parent": 5,
+            "refId": "rsky2"
+        },
+        {
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        -128,
+                        -136,
+                        -128
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100,
+                        100
+                    ]
+                },
+                "rx": {
+                    "a": 0,
+                    "k": 0
+                },
+                "ry": {
+                    "a": 0,
+                    "k": 0
+                },
+                "rz": {
+                    "a": 0,
+                    "k": 0
+                },
+                "or": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "ddd": 1,
+            "parent": 5,
+            "refId": "rsky2"
+        },
+        {
+            "ty": 2,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {
+                "p": {
+                    "a": 0,
+                    "k": [
+                        -128,
+                        -136,
+                        128
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100,
+                        100
+                    ]
+                },
+                "rx": {
+                    "a": 0,
+                    "k": 0
+                },
+                "ry": {
+                    "a": 0,
+                    "k": 90
+                },
+                "rz": {
+                    "a": 0,
+                    "k": 0
+                },
+                "or": {
+                    "a": 0,
+                    "k": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "ddd": 1,
+            "parent": 5,
+            "refId": "rsky2"
+        },
+        {
+            "nm": "bg",
+            "ty": 1,
+            "ip": 0,
+            "op": 180,
+            "st": 0,
+            "sr": 1,
+            "ks": {},
+            "sc": "#000000",
+            "sw": 640,
+            "sh": 480,
+            "ddd": 0
+        }
+    ],
+    "events": {
+        "keydown": "thisComp.keys_pressed[event.key] = true;\n            if ( event.key == \" \" )\n                thisComp.open_door();\n            else if ( event.key == \"Control\" )\n                thisComp.shoot();\n\n            if ( event.key != \"F5\" )\n                event.preventDefault();\n        \n/**/",
+        "keyup": "thisComp.keys_pressed[event.key] = false;\n\n            if ( event.key != \"F5\" )\n                event.preventDefault();\n        \n/**/",
+        "load": "thisComp.keys_pressed = {};\n            thisComp.mouse_dx = 0;\n            thisComp.mouse_dy = 0;\n            thisComp.char_angle = 0;\n            thisComp.look_angle = 0;\n            thisComp.cam_x = 0;\n            thisComp.cam_z = 0;\n            thisComp.focused = false;\n            thisComp.health = 100;\n            thisComp.armor = 0;\n            thisComp.ammo = 10;\n            thisComp.pain = 0;\n            thisComp.frags = 0;\n            thisComp.time_delta = function (thisLayer, time) {\n                if ( thisLayer.last_time === undefined )\n                {\n                    thisLayer.last_time = time;\n                    thisLayer.time_delta = 0;\n                }\n                else if ( time < thisLayer.last_time )\n                {\n                    thisLayer.last_time = time;\n                    thisLayer.time_delta = 1 / 60;\n                }\n                else if ( time != thisLayer.last_time )\n                {\n                    thisLayer.time_delta = time - thisLayer.last_time;\n                    thisLayer.last_time = time;\n                }\n                return thisLayer.time_delta;\n            };\n            /* Point orientation (0 = colinear, 1 = clockwise, -1 = counter) */\n            thisComp.pt_orientation = function(a, b, c)\n            {\n                return Math.sign(\n                    (b[1] - a[1]) * (c[0] - b[0]) - (b[0] - a[0]) * (c[1] - b[1])\n                );\n            };\n            /* Whether a point is within a segment */\n            thisComp.pt_on_seg = function(a, b, p)\n            {\n                return (\n                    p[0] <= Math.max(a[0], b[0]) && p[0] >= Math.min(a[0], b[0]) &&\n                    p[1] <= Math.max(a[1], b[1]) && p[1] >= Math.min(a[1], b[1])\n                );\n            };\n            /* Returns the intersection point between two segments */\n            thisComp.seg_intersect = function(seg1, seg2)\n            {\n                var s1_x = seg1[1][0] - seg1[0][0];\n                var s1_y = seg1[1][1] - seg1[0][1];\n                var s2_x = seg2[1][0] - seg2[0][0];\n                var s2_y = seg2[1][1] - seg2[0][1];\n\n                var s = (-s1_y * (seg1[0][0] - seg2[0][0]) + s1_x * (seg1[0][1] - seg2[0][1])) / (-s2_x * s1_y + s1_x * s2_y);\n                var t = ( s2_x * (seg1[0][1] - seg2[0][1]) - s2_y * (seg1[0][0] - seg2[0][0])) / (-s2_x * s1_y + s1_x * s2_y);\n\n                if ( s >= 0 && s <= 1 && t >= 0 && t <= 1 )\n                    return [seg1[0][0] + (t * s1_x),  seg1[0][1] + (t * s1_y)];\n\n                return null\n            };\n            /* Distance of point from segment */\n            thisComp.dist_pt_seg = function(a, b, p)\n            {\n                var delta_ab = [b[0] - a[0], b[1] - a[1]];\n                var delta_pb = [p[0] - b[0], p[1] - b[1]];\n                var delta_pa = [p[0] - a[0], p[1] - a[1]];\n\n                var dot_b = (delta_ab[0] * delta_pb[0] + delta_ab[1] * delta_pb[1]);\n                var dot_a = (delta_ab[0] * delta_pa[0] + delta_ab[1] * delta_pa[1]);\n\n                if ( dot_b > 0)\n                {\n                    var y = p[1] - b[1];\n                    var x = p[0] - b[0];\n                    return Math.sqrt(x * x + y * y);\n                }\n\n                if ( dot_a < 0)\n                {\n                    var y = p[1] - a[1];\n                    var x = p[0] - a[0];\n                    return Math.sqrt(x * x + y * y);\n                }\n\n                    var x1 = delta_ab[0];\n                    var y1 = delta_ab[1];\n                    var x2 = delta_pa[0];\n                    var y2 = delta_pa[1];\n                    var mod = Math.sqrt(x1 * x1 + y1 * y1);\n                    return Math.abs(x1 * y2 - y1 * x2) / mod;\n            };\n            thisComp.wall_segments = function()\n            {\n                return thisComp.walls.concat(\n                    thisComp.doors.filter(d => !d.open).map(door => [door.p1, door.p2])\n                );\n            }\n            thisComp.line_obstruction = function(a, b, check_only = false)\n            {\n                for ( var seg of thisComp.wall_segments() )\n                {\n                    var c = thisComp.seg_intersect([a, b], seg);\n                    if ( c )\n                    {\n                        if ( check_only )\n                            return true;\n                        b = c;\n                    }\n                }\n                if ( check_only )\n                    return false;\n                return b;\n            };\n            thisComp.hit_wall = function(x, z, radius)\n            {\n                var p = [x, z];\n                for ( var [a, b] of thisComp.wall_segments() )\n                {\n                    if ( thisComp.dist_pt_seg(a, b, p) < radius )\n                        return true;\n                }\n                return false;\n            };\n            thisComp.hit_objects = function(x, z) {\n                for ( var obj of thisComp.objects )\n                {\n                    if ( obj.layer.on_collision && obj.health > 0 && Math.hypot(obj.pos[0] - x, obj.pos[1] - z) <= obj.radius )\n                        obj.layer.on_collision();\n                }\n            };\n            thisComp.door_free = function(door) {\n                if ( thisComp.dist_pt_seg(door.p1, door.p2, [thisComp.char_x, thisComp.char_z]) < 64 )\n                    return false;\n\n                for ( var obj of thisComp.objects )\n                {\n                    if ( obj.health > 0 && obj.type == \"monster\" && thisComp.dist_pt_seg(door.p1, door.p2, obj.pos) < obj.radius + 32 )\n                        return false;\n                }\n\n                return true;\n            };\n            thisComp.object_rot = function(thisLayer, pos = null) {\n                pos = pos ?? [thisLayer.position[0], thisLayer.position[2]];\n                var targ = [thisComp.char_x, thisComp.char_z];\n                var ang = Math.atan2(targ[1] - pos[1], pos[0] - targ[0]) / Math.PI * 180 + 90;\n                return ang;\n            };\n            thisComp.open_door = function() {\n                var p = [thisComp.char_x, thisComp.char_z];\n\n                for ( var door of thisComp.doors )\n                {\n                    if ( Math.hypot(door.c[0] - p[0], door.c[1] - p[1]) < 64 )\n                    {\n                        if ( door.state == 0 )\n                        {\n                            door.state = 1;\n                            thisComp(\"door_open\").play_sound();\n                        }\n                        else if ( door.state == 2 )\n                        {\n                            if ( thisComp.door_free(door) )\n                            {\n                                door.state = 3;\n                                thisComp(\"door_close\").play_sound();\n                            }\n                        }\n                        return;\n                    }\n                }\n            };\n            thisComp.shoot = function() {\n                if ( thisComp(\"shotgun_0\").img_playing || thisComp(\"shotgun_blast_0\").img_playing || thisComp.ammo <= 0 || thisComp.health <= 0 )\n                    return;\n\n                thisComp(\"shotgun_blast_0\").play_animation(\"shoot\");\n                thisComp(\"shotgun_blast_0\").img_frame = 0;\n                thisComp(\"shotgun_sound\").play_sound();\n\n                thisComp.ammo -= 1;\n\n                var p1 = [thisComp.char_x, thisComp.char_z];\n                var angle = thisComp.char_angle + Math.PI/2;\n                var distance = 2000;\n                var p2 = [p1[0] + Math.cos(angle) * distance, p1[1] + Math.sin(angle) * distance];\n                p2 = thisComp.line_obstruction(p1, p2, false);\n\n                for ( var obj of thisComp.objects )\n                {\n                    if ( obj.layer.on_damage && obj.health > 0 && thisComp.dist_pt_seg(p1, p2, obj.pos) <= obj.radius )\n                        obj.layer.on_damage(30);\n                }\n            };\n            thisComp.damage_radius = function(pos, radius, damage)\n            {\n                for ( var obj of thisComp.objects )\n                {\n                    if ( obj.layer.on_damage && obj.health > 0 && Math.hypot(obj.pos[0] - pos[0], obj.pos[1] - pos[1]) <= obj.radius + radius )\n                        obj.layer.on_damage(damage);\n                }\n\n                if ( Math.hypot(pos[0] - thisComp.char_x, pos[1] - thisComp.char_z) < radius + 100 )\n                    thisComp.damage_player(damage);\n            };\n            thisComp.update_health_offset = function() {\n                if ( thisComp.health >= 80 )\n                    thisComp(\"guy_0\").img_frame_offset = 0;\n                else if ( thisComp.health >= 60 )\n                    thisComp(\"guy_0\").img_frame_offset = 6;\n                else if ( thisComp.health >= 40 )\n                    thisComp(\"guy_0\").img_frame_offset = 12;\n                else if ( thisComp.health >= 20 )\n                    thisComp(\"guy_0\").img_frame_offset = 18;\n                else\n                    thisComp(\"guy_0\").img_frame_offset = 24;\n            };\n            thisComp.damage_player = function(amount)\n            {\n                if ( thisComp.pain || thisComp.health <= 0 )\n                    return;\n\n                var armor_damage = Math.min(Math.round(amount / 3), thisComp.armor);\n                thisComp.armor -= armor_damage;\n                thisComp.health -= amount - armor_damage;\n                if ( thisComp.health <= 0 )\n                {\n                    thisComp.health = 0;\n                    thisComp(\"guy_0\").img_frame_offset = 0;\n                    thisComp(\"guy_0\").play_animation(\"dead\");\n                    thisComp(\"shotgun_0\").play_animation(\"dead\");\n                    thisComp(\"player_death\").play_sound();\n                }\n                else\n                {\n                    thisComp(\"guy_0\").play_animation(\"ouch\");\n                    thisComp.update_health_offset();\n                    thisComp(\"player_pain\").play_sound();\n                }\n                thisComp.pain = 1;\n            };\n            thisComp.hit_mob = function(x, z, data)\n            {\n                if ( thisComp.hit_wall(x, z, data.radius) )\n                    return true;\n\n                for ( var obj of thisComp.objects )\n                {\n                    if ( obj.type == \"monster\" && obj.id != data.id && obj.health > 0 &&\n                        Math.hypot(obj.pos[0] - x, obj.pos[1] - z) <= obj.radius + data.radius\n                    )\n                        return true;\n                }\n\n                return false;\n            };\n            thisComp.mob_ai = function(data, thisLayer, time)\n            {\n                if ( data.health > 0 )\n                {\n                    var dt = thisComp.time_delta(thisLayer, time);\n                    var player_pos = [thisComp.char_x, thisComp.char_z];\n                    if ( thisComp.health > 0 && thisLayer.ignore_player == 0 && !thisComp.line_obstruction(data.pos, player_pos, true) )\n                    {\n                        thisLayer.direction = thisComp.object_rot(thisLayer, data.pos) / 180 * Math.PI + Math.PI / 2;\n                        thisLayer.speed = 150;\n                        thisLayer.next_wander = 0;\n                    }\n                    else\n                    {\n                        thisLayer.next_wander -= dt;\n                        if ( thisLayer.next_wander <= 0 )\n                            thisLayer.wander();\n\n                        if ( thisLayer.ignore_player > 0 )\n                        {\n                            thisLayer.ignore_player -= dt;\n                            if ( thisLayer.ignore_player < 0 )\n                                thisLayer.ignore_player = 0;\n                        }\n                    }\n\n                    var new_pos = [\n                        data.pos[0] + Math.cos(thisLayer.direction) * thisLayer.speed * dt,\n                        data.pos[1] - Math.sin(thisLayer.direction) * thisLayer.speed * dt\n                    ];\n\n                    if ( thisComp.hit_mob(new_pos[0], new_pos[1], data) )\n                    {\n                        if ( !thisComp.hit_mob(data.pos[0], new_pos[1], data) )\n                            data.pos[1] = new_pos[1];\n                        else if ( !thisComp.hit_mob(new_pos[0], data.pos[1], data) )\n                            data.pos[0] = new_pos[0];\n                        else\n                            thisLayer.next_wander = 0;\n                    }\n                    else\n                    {\n                        data.pos = new_pos;\n                    }\n\n                }\n            };\n        \n/**/\nthisComp.walls = [[[-64,128],[-32,128]],[[0,64],[32,64]],[[0,0],[128,0]],[[448,0],[512,0]]];\nthisComp.doors = [];\nthisComp.objects = [];",
+        "click": "if ( !thisComp.focused )\n                thisComp.requestPointerLock();\n            else\n                thisComp.shoot();\n        \n/**/",
+        "pointerlockchange": "thisComp.focused = event.is_locked;\n            thisComp.mouse_dx = 0;\n            thisComp.mouse_dy = 0;\n        \n/**/",
+        "mousemove": "if ( thisComp.focused )\n            {\n                thisComp.mouse_dx += event.movementX;\n                thisComp.mouse_dy += event.movementY;\n            }\n        \n/**/"
+    },
+    "ddd": 1
+}
